@@ -29,8 +29,9 @@ function setup() {
   zombie.scale = 0.1;
   zombie.velocityX = 1;
 
-  breakButton = createButton("");
+breakButton = createButton("Click Me");
   breakButton.position(width/2, height / 2 -100);
+  breakButton.size(50,50);
   breakButton.class("breakbutton");
   breakButton.mouseClicked(handleButtonPress);
 
